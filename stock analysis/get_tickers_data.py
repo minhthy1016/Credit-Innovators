@@ -4,7 +4,7 @@ import numpy as np
 from scipy.stats import skew, kurtosis
 
 # Define the list of tickers
-tickers_list = tickers_list = ['AAPL', 'AMZN', 'GOOGL', 'META', 'NVDA', 'MSFT', 'IBM', 'INTC', 'CRM', 'CSCO', 'DELL',  'QCOM','T','STX', 'VZ', 'GM',
+tickers_list  = ['AAPL', 'AMZN', 'GOOGL', 'META', 'NVDA', 'MSFT', 'IBM', 'INTC', 'CRM', 'CSCO', 'DELL',  'QCOM','T','STX', 'VZ', 'GM',
                  'CAT', 'LLY', 'HAL', 'SHOP', 'BMY', 'CME', 'ABBV', 'TMUS', 'BA', 'AIR.PA', 'AMAT', 'BLD','TSLA', 'NFLX', 'NOW', 'YUM', 'WMT', 'PG', 'AMGN', 'DUOL','XOM','SHEL.L', 'ROKU', 'PLTR']
 benchmark_tickers = ['^GSPC', 'VOO', 'SPY']  # S&P 500, VOO, SPY
 
